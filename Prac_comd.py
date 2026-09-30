@@ -54,6 +54,8 @@ Command 2: sudo reboot
 Command 3: pip3 install adafruit-circuitpython-pn532 --break-system-packages
 Command 3: sudo apt install -y libnfc-bin libnfc-dev libusb-dev libpcsclite-dev i2c-tools
 Command 4: sudo nano /etc/nfc/libnfc.conf
+Command 5: i2cdetect –y 1 (optional put sudo)
+Command 6: nfc-list
 
 Practical 10
 #pip3 install pyfingerprint
